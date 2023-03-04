@@ -7,11 +7,20 @@ nav{
     top:0px;
     right: 0px;
     width: 100%;
-    background-color: rgb(220, 184, 128);    
+    background-color: rgb(244, 207, 149);    
     text-align: center;
     font-size: 30px;
 
 }
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: white;
+    font-size: 1.2em;
+}
+
 li{
     display: inline;
     padding: 80px;
@@ -22,16 +31,63 @@ h1{
     font-size: 50px;
 }
 
+img{
+    height: 400px;
+    display: inline;
+}
+
 body{
-    padding:100px 100px 20px 100px;
+    margin:100px 100px 20px 100px;
     background-color: rgb(210, 201, 235);
     text-align: center;
+    padding-bottom: 50px;
 }
 
 footer{
-    background-color: beige;
     position: fixed;
+    background-color: rgb(244, 207, 149);
+    width:100%;
+    left:0;
     bottom: 0;
-    width: 100%;
-    right: 0px;
+    height: 20px;
+    
+    padding-top: 50px;
+}
+
+.photo{
+    display: inline-block;
+    margin: 15px;
+}
+
+#camera{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 15px;
+}
+
+label{
+    position: relative;
+    left: -300px;
+    font-size: 30px;
+    margin: 50px;
+}
+input, textarea,button {
+    display: block;
+    position: relative;
+    left: 500px;
+    width: 500px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    
+  }
+#contactform{
+    position: relative;
+    top: 50px;
+    left: 160px;     
+}
+button:hover{
+    background-color: rgb(244, 207, 149);
+
 }
