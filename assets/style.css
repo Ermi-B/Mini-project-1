@@ -13,6 +13,13 @@ nav{
 
 }
 
+body{
+    margin:100px 100px 20px 100px;
+    background-color: rgb(210, 201, 235);
+    text-align: center;
+    padding: 50px 100px 50px 100px;
+}
+
 a{
     text-decoration: none;
 }
@@ -30,64 +37,90 @@ li{
 h1{
     font-size: 50px;
 }
-
-img{
-    height: 400px;
-    display: inline;
+h2{
+    font-size: 40px;
 }
 
-body{
-    margin:100px 100px 20px 100px;
-    background-color: rgb(210, 201, 235);
-    text-align: center;
-    padding-bottom: 50px;
+
+img:hover{
+    transform: scale(1.1);
 }
 
-footer{
-    position: fixed;
-    background-color: rgb(244, 207, 149);
-    width:100%;
-    left:0;
-    bottom: 0;
-    height: 20px;
-    
-    padding-top: 50px;
-}
+
+
 
 .photo{
     display: inline-block;
     margin: 15px;
 }
-
+.photo img{
+    height: 400px;
+    display:inline;
+}
 #camera{
     height: 200px;
     width: 200px;
-    display: inline-block;
+    display: inline;
     margin: 15px;
+}
+form{
+    position: relative;
+    left: 400px;
+    padding: 20px;
+    background-color: rgb(246, 196, 139);
+    box-sizing: border-box;
+    width: 50%;
+    border-radius: 100px;
+    padding-left: 100px;
+   
+    
 }
 
 label{
-    position: relative;
-    left: -300px;
-    font-size: 30px;
-    margin: 50px;
-}
-input, textarea,button {
     display: block;
     position: relative;
-    left: 500px;
-    width: 500px;
-    padding: 5px;
-    margin: 10px;
-    font-size: 20px;
+    left: -240px;
+    font-size: 30px;
+    margin: 20px;
     
+}
+input{
+    display: block;
+   
+    width: 500px;
+    padding: 10px;
+    
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: none;
   }
-#contactform{
+
+button{
     position: relative;
-    top: 50px;
-    left: 160px;     
+    margin: 30px;
+    padding:5px;
+    font-size: 25px;
+    right: 40px;
+    border-radius: 10px;
+    border-style: none;
 }
 button:hover{
-    background-color: rgb(244, 207, 149);
+    background-color: rgb(255, 157, 0);
+    transform: scale(1.5);
 
+}
+footer{
+    position:relative;
+    bottom: -90px;
+    right: 200px;
+    background-color: rgb(252, 213, 161);
+    width: 127%;
+    height: 110px;
+    padding: 20px;
+}
+.footer img{
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+    padding: 200px;
 }
